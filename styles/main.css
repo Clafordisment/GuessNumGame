@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+}
+
+body {
+    background-color: #0a0a0a;
+    color: #e0e0e0;
+    min-height: 90vh;  /*процентная зависимость от окна (viewport)*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #1a1a1a;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    animation: glow 10s infinite alternate;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+    }
+
+    100% {
+        box-shadow: 0 0 40px rgba(255, 255, 255, 0.15);
+    }
+}
+
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.speech {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #b0b0b0;
+}

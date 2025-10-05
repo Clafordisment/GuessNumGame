@@ -1,0 +1,17 @@
+.hint-section {
+    text-align: center;
+    margin-bottom: 15px;
+    min-height: 60px;
+}
+
+.hint-text {
+    font-size: 18px;
+    color: #b0b0b0;
+    margin-bottom: 5px;
+}
+
+.almost-text {
+    font-size: 16px;
+    color: #ffa500;
+    font-style: italic;
+}

@@ -1,0 +1,28 @@
+.reload-frame-label {
+    background-color: #2a2a2a;
+    color: #b0b0b0;
+    padding: 12px 25px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.reload-frame-label:hover {
+    background-color: #3a3a3a;
+    ;
+}
+
+.reload-text {
+    cursor: pointer;
+    color: #b0b0b0;
+    padding: 10px;
+    display: inline-block;
+    transition: color 0.6s ease;
+}
+
+.reload-text:hover {
+    color: #ffffff;
+}
